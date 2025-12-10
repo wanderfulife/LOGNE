@@ -14,8 +14,13 @@ export const templateSurveyQuestions = [
     {
         id: "Q2",
         text: "Motif de stationnement",
-        type: 'freeText',
-        next: "end"
+         type: 'singleChoice',
+        options: [
+            { id: 1, text: "Travail", next: "end" },
+            { id: 2, text: "Études", next: "end" },
+            { id: 3, text: "Déplacement professionnel", next: "end" },
+            { id: 4, text: "Autres (achats, demarches administratives, rdv médical, visite)", next: "end" }
+        ]
     },
 
 ];
