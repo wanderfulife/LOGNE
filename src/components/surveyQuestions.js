@@ -16,10 +16,12 @@ export const templateSurveyQuestions = [
         text: "Motif de stationnement",
          type: 'singleChoice',
         options: [
-            { id: 1, text: "Travail", next: "end" },
-            { id: 2, text: "Études", next: "end" },
-            { id: 3, text: "Déplacement professionnel", next: "end" },
-            { id: 4, text: "Autres (achats, demarches administratives, rdv médical, visite)", next: "end" }
+            { id: 1, text: "Travail (prendre le RER)", next: "end" },
+            { id: 2, text: "Travail sur place", next: "end" },
+            { id: 3, text: "Études", next: "end" },
+            { id: 4, text: "Déplacement professionnel", next: "end" },
+            { id: 5, text: "Loisir / Tourisme", next: "end" },
+            { id: 6, text: "Autres (achats, demarches administratives, rdv médical, visite...)", next: "end" }
         ]
     },
 
